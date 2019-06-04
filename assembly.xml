@@ -37,7 +37,7 @@
       <outputDirectory>lib</outputDirectory>
     </file>
     <file>
-      <source>../addPlaceholders.xsl</source>
+      <source>addPlaceholders.xsl</source>
       <outputDirectory>resources</outputDirectory>
     </file>
   </files>
