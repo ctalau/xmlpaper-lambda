@@ -40,6 +40,11 @@
       <source>addPlaceholders.xsl</source>
       <outputDirectory>resources</outputDirectory>
     </file>
+    <file>
+      <source>fop.xconf</source>
+      <outputDirectory>resources</outputDirectory>
+    </file>
+ 
   </files>
 
 </assembly>
