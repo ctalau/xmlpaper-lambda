@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="resources/css/paper.css"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0">
+	<info>
+		<title><?oxy-placeholder content="Your paper title"?></title>
+		<author>
+			<personname><?oxy-placeholder content="Your name"?></personname>
+			<email><?oxy-placeholder content="Your email address"?></email>
+			<uri><?oxy-placeholder content="Your website"?></uri>
+			<personblurb>
+				<para><?oxy-placeholder content="Details about you"?></para>
+			</personblurb>
+			<affiliation>
+				<jobtitle><?oxy-placeholder content="Your job title"?></jobtitle>
+				<orgname><?oxy-placeholder content="Organization name"?></orgname>
+			</affiliation>
+		</author>
+		<keywordset>
+			<keyword><?oxy-placeholder content="keyword relevant to your paper"?></keyword>
+			<keyword><?oxy-placeholder content="keyword"?></keyword>
+		</keywordset>
+		<abstract>
+			<para><?oxy-placeholder content="First paragraph of your abstract."?></para>
+			<para><?oxy-placeholder content="Another paragraph …"?></para>
+		</abstract>
+	</info>
+
+	<para><?oxy-placeholder content="Leading text before the first section can be here…"?></para>
+	<section>
+		<title>Introduction</title>
+		<para><?oxy-placeholder content="Introductory section goes here…"?></para>
+		<para><?oxy-placeholder content="You can use not only paragraphs, but also programlistings, examples, lists, tables, etc."?></para>
+	</section>
+
+	<section>
+		<title><?oxy-placeholder content="Section title"?></title>
+		<para><?oxy-placeholder content="You can use not only paragraphs, but also programlistings, examples, lists, tables, etc."?></para>
+	</section>
+	
+	<section>
+		<title>Conclusion</title>
+		<para><?oxy-placeholder content="You can use not only paragraphs, but also programlistings, examples, lists, tables, etc."?></para>
+
+	</section>
+
+	<bibliography xml:id="references">
+		<bibliomixed> <abbrev>DB5SPEC</abbrev> <author>
+			<personname><surname>Walsh</surname><firstname>Norman</firstname></personname>
+			</author>: <title>The DocBook Schema</title>. Working Draft 5.0a1, <date>29 June
+			2005</date>, <orgname>OASIS</orgname>. <bibliomisc><link
+			xl:href="http://www.docbook.org/specs/wd-docbook-docbook-5.0a1.html"/></bibliomisc> </bibliomixed>
+		
+		<bibliomixed> <abbrev><?oxy-placeholder content="Abreviation for references"?></abbrev> <author>
+			<personname><surname><?oxy-placeholder content="Surname"?></surname>
+				<firstname><?oxy-placeholder content="Firstname"?></firstname></personname>
+			</author>: <title><?oxy-placeholder content="Reference title"?></title>.
+			<date><?oxy-placeholder content="DD Month Year"?></date>,
+			<orgname><?oxy-placeholder content="Organization name"?></orgname>
+			<bibliomisc><link/></bibliomisc></bibliomixed>
+		
+	</bibliography>
+
+</article>
